@@ -1,6 +1,13 @@
 import digi, { createData } from 'digi'
 
-const data = createData({ a: 123, select: '' })
+const watchLog = createData({ newVal: '', oldVal: 123 })
+
+const data = createData({ a: 123, select: '' }, { watch: {
+  a: (newVal, oldVal) => {
+    watchLog.newVal = newVal
+    watchLog.oldVal = oldVal
+  }
+}})
 
 digi([
   { innerText: data.$tp('a') },
@@ -24,6 +31,7 @@ digi([
       }
     },
   },
+  { innerText: `新值：${ watchLog.$tp('newVal')}，旧值：${ watchLog.$tp('oldVal')}`},
   {
     child: [
       {

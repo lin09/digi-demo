@@ -1036,10 +1036,10 @@ diffie-hellman@^5.0.0:
     miller-rabin "^4.0.0"
     randombytes "^2.0.0"
 
-digi@^0.0.3-Beta:
-  version "0.0.3-Beta"
-  resolved "https://registry.yarnpkg.com/digi/-/digi-0.0.3-Beta.tgz#97b15cc034903607de58299d3a6333232ed43ff6"
-  integrity sha512-cuWxhIg2uAF/XnALFoDjkgAIKCsmba3N7LWR+YQm7P6Q5sqs+eCrUkUeJh8wf32v0pc6Z/3Zr5z1qI+mGgWmsw==
+digi@^0.0.4-Beta:
+  version "0.0.4-Beta"
+  resolved "https://registry.yarnpkg.com/digi/-/digi-0.0.4-Beta.tgz#14013ce2ce965d6df296784e7da0599ee23a145d"
+  integrity sha512-e6z08HtvisBWAL5ABsTiA4yrSOF8dVNn3tZyxT+1pRkoD645xg2qM7afH+nn9WT6HVlX2Ju7u6wFcTDQ1zQN0Q==
 
 dns-equal@^1.0.0:
   version "1.0.0"
