@@ -2,7 +2,7 @@ import digi, { createData } from 'digi'
 
 const watchLog = createData({ newVal: '', oldVal: 123 })
 
-const data = createData({ a: 123, select: '' }, { watch: {
+const data = createData({ a: 123, select: '', color: { r: 0, g: 0, b: 0, a: 1 } }, { watch: {
   a: (newVal, oldVal) => {
     watchLog.newVal = newVal
     watchLog.oldVal = oldVal
@@ -59,5 +59,58 @@ digi([
       { tagName: 'option', value: 2, innerText: '选择2' }
     ]
   },
-  { innerText: '选择了：' + data.$tp('select') }
+  { innerText: '选择了：' + data.$tp('select') },
+  'hr',
+  {
+    style: {
+      width: '200px',
+      height: '100px',
+      backgroundColor: `rgba(${ data.$tp('color.r') }, ${ data.$tp('color.g') }, ${ data.$tp('color.b') }, ${ data.$tp('color.a') })`
+    }
+  },
+  {
+    innerText: 'r: ',
+    child: {
+      tagName: 'input',
+      type: 'number',
+      min: 0,
+      max: 255,
+      value: data.$tp('color.r'),
+      oninput () { data.color.r = this.value }
+    }
+  },
+  {
+    innerText: 'g: ',
+    child: {
+      tagName: 'input',
+      type: 'number',
+      min: 0,
+      max: 255,
+      value: data.$tp('color.g'),
+      oninput () { data.color.g = this.value }
+    }
+  },
+  {
+    innerText: 'b: ',
+    child: {
+      tagName: 'input',
+      type: 'number',
+      min: 0,
+      max: 255,
+      value: data.$tp('color.b'),
+      oninput () { data.color.b = this.value }
+    }
+  },
+  {
+    innerText: 'a: ',
+    child: {
+      tagName: 'input',
+      type: 'number',
+      min: 0,
+      max: 1,
+      step: 0.01,
+      value: data.$tp('color.a'),
+      oninput () { data.color.a = this.value }
+    }
+  }
 ])
