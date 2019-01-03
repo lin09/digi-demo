@@ -1036,6 +1036,18 @@ diffie-hellman@^5.0.0:
     miller-rabin "^4.0.0"
     randombytes "^2.0.0"
 
+digi-refs@^1.0.1:
+  version "1.0.1"
+  resolved "https://registry.yarnpkg.com/digi-refs/-/digi-refs-1.0.1.tgz#cb267aa8b2acdf4969fde4bea21091e787c89676"
+  integrity sha512-sc6zH/a7+8bV/kAQL6Lj/b9sKMPyEjJVWnlJxZQXx39OWBJp3prmXBJYKBbf5VfhGbYPBNzgx63L3cIcZ3YAwA==
+  dependencies:
+    digi "^0.0.5-Beta"
+
+digi@^0.0.5-Beta:
+  version "0.0.5-Beta"
+  resolved "https://registry.yarnpkg.com/digi/-/digi-0.0.5-Beta.tgz#f87e492146d46410c08e53ebecf6594e6e38b8c1"
+  integrity sha512-aTUa5bJgzpSptuRaIcWf4PoT2Kzu+tw9T8u+OiIMOeomNUvf4c+jQraCBFBvJcDqGEB2Xdge1BX+BxLFz/fboQ==
+
 digi@^0.0.6-Beta:
   version "0.0.6-Beta"
   resolved "https://registry.yarnpkg.com/digi/-/digi-0.0.6-Beta.tgz#54562e37682e5a806ae873d4c87a9c2f4f525088"
