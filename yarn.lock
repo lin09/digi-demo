@@ -1036,22 +1036,22 @@ diffie-hellman@^5.0.0:
     miller-rabin "^4.0.0"
     randombytes "^2.0.0"
 
-digi-refs@^1.0.1:
-  version "1.0.1"
-  resolved "https://registry.yarnpkg.com/digi-refs/-/digi-refs-1.0.1.tgz#cb267aa8b2acdf4969fde4bea21091e787c89676"
-  integrity sha512-sc6zH/a7+8bV/kAQL6Lj/b9sKMPyEjJVWnlJxZQXx39OWBJp3prmXBJYKBbf5VfhGbYPBNzgx63L3cIcZ3YAwA==
+digi-refs@^1.0.2:
+  version "1.0.2"
+  resolved "https://registry.yarnpkg.com/digi-refs/-/digi-refs-1.0.2.tgz#07add4920fe7657ee9bc7fac6179164674034f7e"
+  integrity sha512-84qIubkT5jmXjgSDtmHs7hchaj/wjiQWKoBdW5jlMr3fL0dYqMcO+ocsCycJeiT3AuDhdR4PUPSoKQomfnYFVw==
   dependencies:
-    digi "^0.0.5-Beta"
+    digi "^0.0.7-Beta"
 
-digi@^0.0.5-Beta:
-  version "0.0.5-Beta"
-  resolved "https://registry.yarnpkg.com/digi/-/digi-0.0.5-Beta.tgz#f87e492146d46410c08e53ebecf6594e6e38b8c1"
-  integrity sha512-aTUa5bJgzpSptuRaIcWf4PoT2Kzu+tw9T8u+OiIMOeomNUvf4c+jQraCBFBvJcDqGEB2Xdge1BX+BxLFz/fboQ==
+digi@^0.0.7-Beta:
+  version "0.0.7-Beta"
+  resolved "https://registry.yarnpkg.com/digi/-/digi-0.0.7-Beta.tgz#436292b23cc8d16b5bc0cb526007c1aa7bcc9721"
+  integrity sha512-dU0EjaOajymGHdp2+5PCUq6WKUYuCWXpNNCgdyStf2m7hdrrlPeAnE8kk1ix6wMIGYSh2bkxxDe4qX7K1WwrAQ==
 
-digi@^0.0.6-Beta:
-  version "0.0.6-Beta"
-  resolved "https://registry.yarnpkg.com/digi/-/digi-0.0.6-Beta.tgz#54562e37682e5a806ae873d4c87a9c2f4f525088"
-  integrity sha512-ZblM6GEv71xS+V3+sgau8p6pZzEXAmVAPdwoZnhaBROaRGl/Iy6vPd8wrMojBLXxyauUMATpzIM75lYzEmx8vA==
+digi@^0.0.8-Beta:
+  version "0.0.8-Beta"
+  resolved "https://registry.yarnpkg.com/digi/-/digi-0.0.8-Beta.tgz#dda58a23996799bd1418a81264eb86c19f01b931"
+  integrity sha512-D9tzD9yaoBzUUKPGRZS49shFLrXZMf4uBQd1Hp5HrHmSlNdGy8ctILrtVs/9qNKBaHCPyAM+gM5ouMqBvbfU1A==
 
 dns-equal@^1.0.0:
   version "1.0.0"
