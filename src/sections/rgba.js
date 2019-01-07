@@ -3,7 +3,7 @@ import { createData } from 'digi'
 const data = createData({ color: { r: 0, g: 0, b: 0, a: 1 } })
 
 export default [
-  { tagName: 'h3', innerText: '颜色' },
+  { tagName: 'h3', text: '颜色' },
   {
     style: {
       width: '200px',
@@ -12,7 +12,7 @@ export default [
     }
   },
   {
-    innerText: 'r: ',
+    text: 'r: ',
     child: {
       tagName: 'input',
       type: 'number',
@@ -23,7 +23,7 @@ export default [
     }
   },
   {
-    innerText: 'g: ',
+    text: 'g: ',
     child: {
       tagName: 'input',
       type: 'number',
@@ -34,7 +34,7 @@ export default [
     }
   },
   {
-    innerText: 'b: ',
+    text: 'b: ',
     child: {
       tagName: 'input',
       type: 'number',
@@ -45,7 +45,7 @@ export default [
     }
   },
   {
-    innerText: 'a: ',
+    text: 'a: ',
     child: {
       tagName: 'input',
       type: 'number',

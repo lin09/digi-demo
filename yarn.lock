@@ -1048,10 +1048,10 @@ digi@^0.0.7-Beta:
   resolved "https://registry.yarnpkg.com/digi/-/digi-0.0.7-Beta.tgz#436292b23cc8d16b5bc0cb526007c1aa7bcc9721"
   integrity sha512-dU0EjaOajymGHdp2+5PCUq6WKUYuCWXpNNCgdyStf2m7hdrrlPeAnE8kk1ix6wMIGYSh2bkxxDe4qX7K1WwrAQ==
 
-digi@^0.0.8-Beta:
-  version "0.0.8-Beta"
-  resolved "https://registry.yarnpkg.com/digi/-/digi-0.0.8-Beta.tgz#dda58a23996799bd1418a81264eb86c19f01b931"
-  integrity sha512-D9tzD9yaoBzUUKPGRZS49shFLrXZMf4uBQd1Hp5HrHmSlNdGy8ctILrtVs/9qNKBaHCPyAM+gM5ouMqBvbfU1A==
+digi@^1.0.0-Beta:
+  version "1.0.0-Beta"
+  resolved "https://registry.yarnpkg.com/digi/-/digi-1.0.0-Beta.tgz#0cfcc7406958a1c6d1b3504f0150bb07ea2ee30b"
+  integrity sha512-Hj2VHA3MJHc2eZKimdgLgrtxFeP32pet5vy1u4vdKypHAKHVgCChdee2a/zOOwEteNRWsOQMkxkYnbfxq3OAGw==
 
 dns-equal@^1.0.0:
   version "1.0.0"

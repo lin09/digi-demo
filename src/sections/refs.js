@@ -3,7 +3,7 @@ import refs, { allotId } from 'digi-refs'
 const textRefId = allotId()
 
 export default [
-  { tagName: 'h3', innerText: 'ref标记指向' },
+  { tagName: 'h3', text: 'ref标记元素' },
   {
     tagName: 'input',
     oninput () {

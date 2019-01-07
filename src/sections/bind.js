@@ -10,10 +10,10 @@ const data = createData({ a: 123 }, { watch: {
 }})
 
 export default [
-  { tagName: 'h3', innerText: '绑定数据' },
-  { innerText: data.$tp('a') },
+  { tagName: 'h3', text: '绑定数据' },
+  { text: data.$tp('a') },
   {
-    innerText: '单向绑定：',
+    text: '单向绑定：',
     child: {
       tagName: 'input',
       value: data.a,
@@ -23,7 +23,7 @@ export default [
     }
   },
   {
-    innerText: '双向绑定：',
+    text: '双向绑定：',
     child: {
       tagName: 'input',
       value: data.$tp('a'),
@@ -32,15 +32,15 @@ export default [
       }
     },
   },
-  { innerText: `新值：${ watchLog.$tp('newVal')}，旧值：${ watchLog.$tp('oldVal')}`},
+  { text: `新值：${ watchLog.$tp('newVal')}，旧值：${ watchLog.$tp('oldVal')}`},
   {
     child: [
       {
         tagName: 'button',
-        innerText: '添加显示',
+        text: '添加显示',
         onclick () {
           digi({
-            innerText: '点击删除：' + data.$tp('a'),
+            text: '点击删除：' + data.$tp('a'),
             onclick (e) {
               e.stopPropagation()
               this.remove()
