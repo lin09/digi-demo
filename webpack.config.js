@@ -5,6 +5,7 @@ module.exports = (env, argv) => {
 
   return {
     output: {
+      publicPath: '/',
       filename: devMode ? 'bundle.js' : 'bundle.[hash].js'
     },
     plugins: [
@@ -20,6 +21,9 @@ module.exports = (env, argv) => {
           options: { minimize: !devMode }
         }
       }]
+    },
+    devServer: {
+      historyApiFallback: true
     }
   }
 }

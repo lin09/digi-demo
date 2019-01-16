@@ -28,8 +28,9 @@
     "webpack-dev-server": "^3.1.14"
   },
   "dependencies": {
-    "digi": "^1.0.3",
+    "digi": "^1.0.6",
     "digi-classname": "^1.0.1",
-    "digi-refs": "^1.0.3"
+    "digi-refs": "^1.0.3",
+    "digi-router": "^1.0.2"
   }
 }

@@ -1048,15 +1048,20 @@ digi-refs@^1.0.3:
   dependencies:
     digi "^1.0.0"
 
+digi-router@^1.0.2:
+  version "1.0.2"
+  resolved "https://registry.yarnpkg.com/digi-router/-/digi-router-1.0.2.tgz#c190794e1120a45ecf35ccf27277c0aa68ec9975"
+  integrity sha512-+CatORoTGE4UBm1XPF/ZKK04pXRfiSTkrt6FDNbUt/XHHU/Tn+X5dxLm1NKxizrCWt3NppwUQVUGAuE9F3VAlw==
+
 digi@^1.0.0:
   version "1.0.1"
   resolved "https://registry.yarnpkg.com/digi/-/digi-1.0.1.tgz#d30d23cbafd5f8652d8cec60b9f6fa4d556f7d50"
   integrity sha512-OsIbgo2siAdUqAnQ20zP+toF9oWLqWAoPhYdMbqToO886wOFTllZTZZ3V+uOqkopw2dBh/XkncZcrjvc04s7aQ==
 
-digi@^1.0.3:
-  version "1.0.3"
-  resolved "https://registry.yarnpkg.com/digi/-/digi-1.0.3.tgz#dd5cad6764c0332a273d540eb82305201b950449"
-  integrity sha512-ePlrovuisq89BMcJLadw1PytLqIVKO3p94U+t5bp55CWOEr1H3Ib7ORAWpZoBtBbReLDhBsGx18Lo6eHoJChnA==
+digi@^1.0.6:
+  version "1.0.6"
+  resolved "https://registry.yarnpkg.com/digi/-/digi-1.0.6.tgz#6af2b3a7cbfc5e5e31d9dee16a8ce9e90e52929a"
+  integrity sha512-4y8x7V52bd3HoxiNzXynJ3Q5Qidr2wGtgDdjHqbmwKXeS5Q0G/1SM8CGP4v2Q7jx+qlSKHll8fHmZ5D8FgkIqg==
 
 dns-equal@^1.0.0:
   version "1.0.0"
