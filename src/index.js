@@ -14,6 +14,7 @@ import className from './sections/className'
 import { Button, TextButton, ContainedButton } from './ui/Button'
 import { Badge } from './ui/Badge'
 import { Navigation } from './ui/Navigation'
+import { Card } from './ui/Card'
 
 digi.plugins([ refs, classname, ...router ])
 
@@ -52,7 +53,30 @@ digi([
     { ...new TextButton({disabled: true}), text: 'TextButton' },
     { ...new ContainedButton(), text: 'ContainedButton'},
     new Badge({ text: 4, child: { ...new Button(), text: 'Default' } }),
-    new Navigation({ child: ['home', { text: 'news', active: true, child: { text: 'news'} }, 'user'], color: '#ff0000', activeColor: '#00ff00', onChange: v => console.log(v) })
+    new Navigation({
+      child: [
+        'home',
+        { text: 'news', active: true, child: { text: 'news'} },
+        'user'
+      ],
+      color: '#ff0000',
+      activeColor: '#00ff00',
+      onChange: v => console.log(v)
+    }),
+    new Card({
+      className: data.$tp('className'),
+      style: {
+        width: '320px'
+      },
+      child: [{
+        style: {
+          background: 'url(http://www.wcwahlj.com/upload/image/20171228/20171228135441_7552.jpg)',
+          backgroundSize: 'cover',
+          width: '320px',
+          height: '180px'
+        }
+      }, { text: '小猫' }]
+    })
   ] },
   { path: '/list', child: list },
   {
